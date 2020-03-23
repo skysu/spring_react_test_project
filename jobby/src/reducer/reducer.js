@@ -10,6 +10,7 @@ const types = {
   SELECTED_PROFILE_ID: 'SELECTED_PROFILE_ID',
   ADD_PROFILE: 'ADD_PROFILE'  
 }
+//Profile shmofile
 
 const reducer = (state = initialState, action) => {
   switch(action.type) {
