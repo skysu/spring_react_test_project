@@ -5,7 +5,8 @@ import useActions from '../actions/actions';
 const StoreContext = createContext(initialState);
 
 const StoreProvider = ({ children }) => {
-  // Get state and dispatch from Reacts new API useReducer.   
+  // Get state and dispatch from Reacts new API useReducer. 
+  // just testing another comment
   const [state, dispatch] = useReducer(reducer, initialState);
 
   // Get actions from useActions and pass it to Context  
