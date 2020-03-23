@@ -14,6 +14,7 @@ public class CompanyController {
 
     @Autowired
     CompanyRepository companyRepository;
+    //Hello Sky, this works?
 
     @GetMapping(value = "/{id}")
     public CompanyWithJobbies getCompanyById(@PathVariable Long id) {
