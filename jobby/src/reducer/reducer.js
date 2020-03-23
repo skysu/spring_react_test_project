@@ -8,7 +8,7 @@ const initialState = {
 const types = {
   FETCHED_PROFILES: 'FETCHED_PROFILES',
   SELECTED_PROFILE_ID: 'SELECTED_PROFILE_ID',
-  ADD_PROFILE: 'ADD_PROFILE'  
+  ADD_PROFILE: 'ADD_PROFILE'  //profile-shomfile
 }
 
 const reducer = (state = initialState, action) => {
